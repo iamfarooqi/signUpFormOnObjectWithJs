@@ -1,0 +1,77 @@
+body {
+    background-image: url(./images/bg-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+form {
+    width: 30%;
+    height: 500px;
+    margin-left: 35%;
+    padding: 3%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* border: red solid 2px; */
+    border-radius: 3px;
+}
+
+fieldset {
+    border: none;
+    margin-left: 20%;
+}
+
+.btn1 {
+    border-radius: 4px;
+    border: 0px;
+    width: 70%;
+    height: 40px;
+}
+
+a:hover {
+
+    border: none;
+    color: red;
+    box-shadow: 3px 4px 4px red; 
+}
+.btn1:hover {
+    border: none;
+    color: red;
+    box-shadow: 3px 4px 4px red;
+}
+.gender {
+    margin-right: 20px;
+}
+
+.p-info {
+    margin-top: 5%;
+    /* margin-left: 25%; */
+}
+
+.name, .email, .password {
+    width: 200px;
+    height: 30px;
+    border: none;
+}
+
+a {
+    
+    padding: 5px;
+    background-color: rgb(0, 132, 255);
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+.btn1 {
+    background-color: rgb(0, 132, 255);
+    color: white;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bolder;
+
+}
